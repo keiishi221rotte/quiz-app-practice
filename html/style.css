@@ -1,0 +1,28 @@
+ul li,ol li{
+  padding:1em;
+  list-style-position:inside ;
+}
+#main{
+  padding:0 1.5em;
+}
+.section{
+  margin-top:2em;
+}
+h2{
+  border-bottom: 2px solid rgb(107, 109, 103);
+}
+ol.answers{
+  list-style:upper-alpha
+}
+#correct-answer{
+  font-weight: bold;
+}
+.answers li:hover{
+  border: 2px solid rgb(233, 33, 33);
+  background-color: beige;
+  padding:0.9em;
+  cursor:pointer;
+}
+#section-correct-answer{
+  display:none;
+}
